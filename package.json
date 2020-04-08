@@ -1,0 +1,19 @@
+{
+  "name": "aws-s3-file-upload-presigned-url-nodejs",
+  "version": "1.0.0",
+  "description": "A Node.js app to get a presigned url from AWS S3",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Oscar Polanco <opolancoh@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.655.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "uuid": "^7.0.3"
+  }
+}
